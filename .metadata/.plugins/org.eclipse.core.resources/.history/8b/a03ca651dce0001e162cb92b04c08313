@@ -1,0 +1,33 @@
+package week2conditionalsandloops2;
+
+public class Week02BMI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		final int METRIC_TO_IMPERIAL_CONVERSION = 703; 
+		//bmi calculation - use capital letters for a constant
+        // also using the word final makes it unchangeable 
+		System.out.println("Body mass index calculator");
+		
+		String firstName = "Jessica";
+		double weight = 140;  //lbs
+		double height = 65;  //inches
+		
+		 // Bmi = weight / height^2 x 703
+		
+		double bmi = weight / (height * height)*METRIC_TO_IMPERIAL_CONVERSION;  
+		//library called math.pow (within java0
+		
+		//we should actually declare the 703 part of the equation
+		//as a variable... the equation won't ever change (like pi)
+		// also makes the code more clear to others so they're not like...
+		//wtf is 703 ...
+		
+		System.out.println("bmi: " + bmi);
+		
+		
+		
+	}
+
+}

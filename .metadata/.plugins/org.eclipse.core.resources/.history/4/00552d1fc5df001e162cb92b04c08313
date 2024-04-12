@@ -1,0 +1,22 @@
+package week2conditionalsandloops2;
+
+
+import java.util.Scanner;*;
+public class week2userinputpractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter username: ");
+		String username = sc.nextLine();
+		System.out.print("Enter password: ");
+		String password = sc.nextLine();
+		if (username.equals("samy123") && password.equals("3435")) {
+			System.out.println("Welcome back "+ username);
+		} else {
+			System.out.println ("Inaccurate credentials.");
+		}
+	}
+
+}

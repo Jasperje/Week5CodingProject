@@ -1,0 +1,41 @@
+package week4codingproject;
+
+public class Week4Practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+	 
+		// write a method that solves a problem of my own
+		
+	//	a method that takes two ints- lesson lengths and lesson prices, and multiplies them
+	//	based on how many lessons a student will have for the month
+	//	it will return an int - the total tuition for the month
+				
+				
+				
+		System.out.println("You owe " + calculatesMusicTuition + " for music lessons this month.");
+				
+		
+	} // end of main
+
+	
+	
+	public static int calculatesMusicTuition(int lessonCost, int numberOfLessons) {
+		int numberOfLessons  = 0;
+		int lessonCost = 0;
+		int sum = numberOfLessons * lessonCost;
+		
+	}
+	return sum; 
+	
+	
+	
+	
+	
+	
+	
+	
+} // end of class

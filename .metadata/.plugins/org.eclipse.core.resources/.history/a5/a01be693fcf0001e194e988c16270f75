@@ -1,0 +1,53 @@
+package week4codingproject;
+
+public class Week4practiceareaforCodingassignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	
+	
+
+		
+		
+	
+	
+	
+	
+		
+	boolean isHotOutside = true;
+	double moneyInPocket = 11.00;
+		 public static boolean willBuyDrink (boolean isHotOutside, double moneyInPocket) {
+				if (isHotOutside &&  moneyInPocket > 10.50) {
+					//return willBuyDrink;
+					return true;
+				
+				
+				System.out.println("Yum, You will buy a drink!");
+		 }
+		 else { 
+			
+		 System.out.println("No drink for you!");
+       }	
+		 }
+
+
+	
+		 
+		 
+	
+
+
+
+
+
+	} // end of main
+} //end of class
+		
+		
+		
+		
+		
+		
+	
+

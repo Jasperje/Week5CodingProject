@@ -1,0 +1,56 @@
+package Week5;
+
+import java.util.Scanner;
+
+public class TeamMenuApp {
+
+	
+	
+	 static Scanner scanner = new Scanner(System.in);
+	    
+	
+	public static void main(String[] args) {
+		
+		int decision = 0;
+		while (true) {
+			printOptions();
+			decision = scanner.nextInt();
+			if (decision == 1) {
+				createNewTeam();
+			} else if (decision == 2) {
+				addPlayerToTeam();
+			} else if (decision == 3) {
+				removePlayerFromTeam();
+			} else if (decision == 4) {
+				describeTeam();
+			} else {
+				 System.out.println("Please pick a valid option");
+			}
+		}
+
+		//we can even have a LIST of lists 
+		//List<List<String>> teams;
+		
+		//Player p1 = new Player("Thomas", "Fullback", "Running Fast");
+		//Player p2 = new Player("Sally", "Quarterback", "Throwing far");
+		
+		//Team team = new Team("Really Good Football Team");
+		///team.addPlayer(p1);
+		//team.addPlayer(p2);
+		//team.describe();
+		
+		//team.removePlayer("Thomas");
+		//team.describe();
+		
+	}
+
+
+	private  static void printOptions() {
+          System.out.println("1: Create New Team");
+          System.out.println("2: add Player To Team");
+          System.out.println("3: Remove Player From Team");
+          System.out.println("4: View Team Info");
+          
+	}
+
+}

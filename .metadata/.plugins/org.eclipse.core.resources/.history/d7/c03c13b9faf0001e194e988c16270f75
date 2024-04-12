@@ -1,0 +1,32 @@
+package week4codingproject;
+
+public class Week4Practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+	     
+		int[] ages = {3, 9, 23, 64, 2, 8, 28, 93};
+		
+		
+			int result = ages[ages.length-1] - ages[0];
+			System.out.println(result);
+			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

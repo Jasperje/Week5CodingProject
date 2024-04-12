@@ -1,0 +1,47 @@
+package week4codingproject;
+
+public class StudentWeek5 {
+
+	static int numberOfStudents; //sometimes we can have a property shared amongst the entire class
+	//so here we can use the static keyword
+	
+	String firstName;  //we won't give it a specific name since it's a class - it's just the blueprint
+	String lastName;
+	String phoneNumber;
+	int gradeLevel;
+	
+	
+	public Student() {}//nothing passed in to this one
+	
+	public Student (String firstName, String lastName) {
+		this.firstName = firstName; 
+		this.lastName = lastName;
+	}
+	
+	
+	public Student(String firstName, String lastName, String phoneNumber, int gradeLevel) {
+		//NO return type here
+		//we can "overload" constructors and put all these different parameters in
+		//instead of having to write 5 lines per student with all of this data
+		firstName = firstName;  //assigning the value of the parameter BACk to itself
+		//so we use the this.firstName keyword (so Java knows which firstName we want to reference)
+		this.firstName = firstName; //this points to the instance of the class we want to reference
+		this.lastName = lastName;
+		this.gradeLevel = gradeLevel;
+		this.phoneNumber = phoneNumber;
+		
+		
+		
+	}
+	//we can create our own methods now...
+	public void introduce() { //doesn't even take any parameters because it'll use 
+	//the values/properties of the student class!
+		
+		System.out.println("Hello, my name is " + firstName + " " + lastName);
+		System.out.println("I am in grade " + gradeLevel);
+		System.out.println(	"My phone number is " + phoneNumber);
+		
+		
+	}
+
+}

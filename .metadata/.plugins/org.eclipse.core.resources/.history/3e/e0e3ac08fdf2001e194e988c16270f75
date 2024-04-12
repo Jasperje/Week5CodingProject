@@ -1,0 +1,47 @@
+package week4codingproject;
+
+import java.util.List;
+
+public class Week4Practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+	
+	
+	
+		
+		
+	System.print.ln(resultList);
+	
+	
+		
+	
+	}	// end of main 
+	
+	
+	
+	
+	
+	public static List<String>  halfTheList(List<String> listOfNames); {
+		List<String> resultList = new ArrayList<>();
+		
+		for (int index = 0; index < listOfNames.size(); index++) {
+			if (!(index) % 2 == 0) {
+				resultList.add(listOfNames.add(index));
+			 }
+		  }
+		return resultList;
+	   }
+		 
+		
+	
+	
+	
+	
+	
+	
+	
+} // end of class

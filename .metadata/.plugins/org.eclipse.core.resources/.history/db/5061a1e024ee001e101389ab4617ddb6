@@ -1,0 +1,87 @@
+package week4;
+
+public class week4practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String firstName = "Sally";
+		String lastName = "Smith";
+		System.out.println(firstName + " " + lastName);
+	
+		//here an example using the .concat method
+	    firstName = firstName.concat(lastName);
+	    System.out.println(firstName);
+		
+		//week 3 quiz question - i'm confused why it's a loop anyway?
+		// just not 100% sure about "index<=base" portion
+		//also this wouldn't run because i tried to plug in numbers for the ints and it had syntax errors...
+		
+		//public static int power(int base, int exponent) {
+		//int base = 3;
+		//int exponent = 4; {
+		
+		//for (int index = 1; index<= base; index++) {
+		//	result = exponent*base;
+		//}
+		//return result;
+	//}
+	//}
+	
+		
+		//int number = 5;
+		//String word = "Hello";
+		
+		String wordRepeated = concatenateWord("Hello", 3);
+		System.out.println(wordRepeated);
+	}
+	
+	
+	
+	
+	
+	
+		public static String concatenateWord(String word, int number ) {
+			String result = " "; 
+			for (int index = 0; index < number; index++) {
+				result += word;
+			}
+			return result;
+		}
+		
+		
+		
+		
+		
+		//a new way we can achieve the above method, with a StringBuilder is...
+		
+		
+		
+		StringBuilder fullName = new StringBuilder("Sam");
+		fullName.append(" Smith");
+		System.out.println(fullName.toString());
+		
+		public static String concatenateWord(String word, int number ) {
+			StringBuilder result = new StringBuilder(); 
+			for (int index = 0; index < number; index++) {
+				result.append(word);
+			}
+			return result.toString();
+		}
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+	}
+
+

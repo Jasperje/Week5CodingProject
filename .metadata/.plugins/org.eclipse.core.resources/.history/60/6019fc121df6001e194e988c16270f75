@@ -1,0 +1,21 @@
+package Week5;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// List<String> list = ArrayList<String>();
+		// interface on left and class name on right side
+		Logger logger = new ConsoleLogger();
+				//cannot instantiate = new Logger because it's an interface
+				// it needs a concrete class that implements it 
+				// so say = new COnsoleLogger
+		logger.info("Hello");
+		
+		
+		
+		
+	}
+
+}

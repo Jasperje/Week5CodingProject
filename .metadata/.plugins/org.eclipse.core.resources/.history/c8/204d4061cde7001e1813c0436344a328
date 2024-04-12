@@ -1,0 +1,49 @@
+package week3arraysclassvideos;
+
+public class Week3MoreMethodspractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Take an array of ints and return the sum of all the ints 
+		
+        int[] myArray = new int[3];
+  		myArray[0] = 7;
+          myArray[1] = 10;
+  		myArray[2] = 0;
+  		
+  	//int sum = sumArray(myArray);  //we can assign this to an int that we label sum
+  	//there are a couple different options for printing this out
+  		
+  		System.out.println(sumArray(myArray));
+}
+  		
+  		
+public static int sumArray(int[] numbers) {        //(for now we'll only use public static)
+	//for this first line these are only the instructions first, not actually doing anything yet..
+ //we don't know how many elements yet...
+	int sum = 0;  //we use this variablae to keep track of all the ints
+	//we need to find each element in the array and add them
+	//could use a traditional for loop but an enhanced for loop is better
+	for (int number : numbers) {
+		sum += number;  
+	}
+	return sum; 
+
+} 
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,49 @@
+package week4codingproject;
+
+public class Week4practiceareaforCodingassignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	
+		 double sum = 0;
+			for (int i = 0; i < names.length; i++) {
+				sum += names[i].length();
+			}
+			double average = sum/names.length;
+			System.out.println(average);
+			
+		
+		
+		
+		
+		
+	} // end of main
+	
+	
+	
+
+		
+             	
+		 
+
+
+		 
+		 
+	
+
+
+
+		 
+
+	} // end of class
+
+		
+		
+		
+		
+		
+		
+	
+

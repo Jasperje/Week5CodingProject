@@ -1,0 +1,35 @@
+package Week5;
+
+public class Exceptions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		// syntax errors = red x and red underline
+		//you can run the program once these are all fixed
+		//exceptions are anything that happens after syntax errors are fixed
+		int[] numbers = new int[3];
+		if (numbers.length > 3) {
+			System.out.println(numbers[3]);
+			
+		}
+		System.out.println("Bye!");
+		
+		
+		//ex: out of bounds exception
+		//if not handled the program can crash
+		
+		//checked exception = we want to explicitly check for in our code (ex. input, output)
+		
+		//unchecked = we don't check for. we can avoid them by writing clean code/following best practices
+		// only occur if we make mistakes
+		// ex- index out of bounds and null pointers
+		
+		
+		
+		
+		
+	}
+
+}

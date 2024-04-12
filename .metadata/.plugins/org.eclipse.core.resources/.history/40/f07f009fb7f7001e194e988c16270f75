@@ -1,0 +1,32 @@
+package WEEK5Labs;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Deck {
+
+	List<Card> cards = new ArrayList<Card>(); 
+	
+	
+	//Constructor: The constructor for the Deck Class should
+	// 			instantiate all 52 standard playing cards and add them to the cards list.
+	//
+	
+	public Deck(String name) {
+		this.setName(name);
+	}
+	
+	
+	
+	
+	
+	
+	
+	//		Methods:  
+	//			a.  describe() to describe the deck to the Console -- 
+	//					print out all of the cards in the deck.
+	//
+	
+	
+	
+}

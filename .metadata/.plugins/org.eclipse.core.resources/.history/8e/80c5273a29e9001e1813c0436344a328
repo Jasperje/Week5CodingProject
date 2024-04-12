@@ -1,0 +1,42 @@
+package week4;
+
+public class week4practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		//week 3 quiz question - i'm confused why it's a loop anyway?
+		// just not 100% sure about "index<=base" portion
+		//also this wouldn't run because i tried to plug in numbers for the ints and it had syntax errors...
+		
+		//public static int power(int base, int exponent) {
+		//int base = 3;
+		//int exponent = 4; {
+		
+		//for (int index = 1; index<= base; index++) {
+		//	result = exponent*base;
+		//}
+		//return result;
+	//}
+	//}
+	
+		
+		int number = 5;
+		String word = Hello;
+		public static String concatenateWord(String word, int number ) {
+			String word = " ";
+			for (int index = 1; index <= number; index++) {
+				String = result + word;
+			}
+			return result;
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}

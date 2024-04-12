@@ -1,0 +1,54 @@
+package week3;
+
+public class week3arrays {
+public static Scanner scanner = new Scanner(System.in);{
+
+
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//instead of creating a bunch of separate strings like this:
+		//String name1 = "George"; 
+		//String name2 = "Rahul";
+		
+		//you can put different things into a 'bucket' - like below
+		
+		String [] names = new String[3]; //writing an array requires the "new" keyword
+		names[0] = "George";  //then here you list each element in the array
+		names[1] = "Rahul";  //BUT instead we could write a loop (like below) 
+		names[2] = "Brittney"; 
+		
+		//String [] names = new String [] {
+		//		"George", "Rahul", "Brittney"
+		//}
+		
+		//System.out.println(names[0]); //George
+		//System.out.println(names[1]); //Rahul
+		//System.out.println(names[2]); //Brittney
+		
+		//System.out.println("Length="+names.length);
+		for (int i = 0; i<= names.length; i++) {
+			System.out.println(names[i]); 
+		}
+
+		
+		//use an enhanced for loop:
+		//for (String name : names) {
+		//	System.out.println(name); 
+		//}
+		
+		//String name = getName();
+		//System.out.println("Hello" + name);
+
+		//if (name.equals("George")) {
+		//	System.out.println("You are you!");
+		//}
+		//else { 
+		//	System.out.println("You're not you");
+		//}
+	}
+	}
+
+}

@@ -1,0 +1,122 @@
+package week4;
+
+public class week4practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		 String[] names = {"Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"};
+		
+		  int[] nameLengths = new int[6];
+		   
+		   
+			for (int i = 0; i < names.length; i++) {
+				names.length += nameLengths[i];
+			}
+			 System.out.println(nameLengths);
+	}
+			
+		
+		
+		
+		
+		//here an example using the .concat method
+	    //firstName = firstName.concat(lastName);
+	    //System.out.println(firstName);
+		
+		//week 3 quiz question - i'm confused why it's a loop anyway?
+		// just not 100% sure about "index<=base" portion
+		//also this wouldn't run because i tried to plug in numbers for the ints and it had syntax errors...
+		
+		//public static int power(int base, int exponent) {
+		//int base = 3;
+		//int exponent = 4; {
+		
+		//for (int index = 1; index<= base; index++) {
+		//	result = exponent*base;
+		//}
+		//return result;
+	//}
+	//}
+	
+		
+		//int number = 5;
+		//String word = "Hello";
+		
+		//String wordRepeated = concatenateWord("Hello", 3);
+		//System.out.println(wordRepeated);
+		
+		//StringBuilder fullName = new StringBuilder("Sam");  //can use a StringBuilder with a variable passed into it
+		//or also like down below with nothing passed into it 
+		//fullName.append(" Smith");
+		//System.out.println(fullName.toString());
+
+		//System.out.println(fullName.charAt(5));  // prints out the character at a certain space
+		//System.out.println(fullName.deleteCharAt(5)); //deletes the character at the designated space
+		//System.out.println(fullName.delete(1,  3));   //deletes the characters within a certain range! from 1-3 (not including the space)
+		//System.out.println(fullName.indexOf("it"));   //prints out the space number where IT exists in the string (also not counting the space)
+		//System.out.println(fullName.replace(4,  9, "Thompson")); //replaces the characters in designated spaces, here we used 4-9, and 
+		//replaces them with different words or chars. here we changed the last name to Thompson
+		//System.out.println(fullName.reverse());  prints the whole string out backwards
+		
+		
+		
+	
+	
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	} //end of main
+		
+		
+		
+		
+		
+		
+		
+
+	
+	  
+		
+	
+	   //public static String concatenateWord(String word, int number ) {
+		//	String result = " "; 
+		//	for (int index = 0; index < number; index++) {
+		//		result += word;
+		//	}
+		//	return result;
+		//}
+		
+		//a new way we can achieve the above method, with a StringBuilder is...
+		
+		public static String concatenateWord(String word, int number ) {
+			StringBuilder result = new StringBuilder();   //we can use a StringBuilder with nothing in it
+			for (int index = 0; index < number; index++) {
+				result.append(word);
+			}
+			return result.toString();
+		}
+		
+	
+		
+		
+	
+		
+		
+}
+		
+		
+		
+		
+	
+
+

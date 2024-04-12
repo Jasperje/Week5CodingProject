@@ -1,0 +1,67 @@
+package Week5;
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.util.Date;
+
+public class FileLogger implements Logger {
+// add the unimplemented methods 
+	// print to a FILE versus to the console
+	private BufferedWriter writer;
+	
+	public FileLogger() {
+		try { 
+			writer =  new BufferedWriter(newFileWriter("logs.txt"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	
+	@Override
+	public void info(String info) {
+		Date date = new Date();
+       try {
+		writer.append("INFO: "+ date.toString() + " - " + info);
+	} catch (IOException e) {
+		e.printStackTrace();
+	}		
+	}
+
+	@Override
+	public void warning(String warning) {
+		Date date = new Date();
+	       try {
+			writer.append("WARNING: "+ date.toString() + " - " + warning);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void error(String error) {
+		Date date = new Date();
+	       try {
+			writer.append("ERROR: "+ date.toString() + " - " + error);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void fatal(String fatal) {
+		Date date = new Date();
+	       try {
+			writer.append("FATAL: "+ date.toString() + " - " + fatal);
+		} catch (IOException e) {
+			e.printStackTrace();	
+		}
+	}
+
+	
+	
+	
+	
+}

@@ -1,0 +1,43 @@
+package week3;
+
+public class week3methodsexamples {
+/**
+ * calculates the total of all the values
+ * @param numbers the numbers to total
+ * @return the total of all numbers
+ */
+	public static int calculateTotal(int[] numbers) {
+		return 0;
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		int[] values = new int[] {
+				10, 45, 934, 34, 5, 9, 978
+		};
+		// TODO Auto-generated method stub
+//write a method that will calculate the total of the values in an array of integers
+		int total = calculateTotal(values); 
+		System.out.printf("Total: %d%n", total);
+		
+		
+		
+		
+		
+		//write a method that will calculate the average of the values in an array of integers
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

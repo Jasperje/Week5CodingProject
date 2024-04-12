@@ -1,0 +1,35 @@
+package com.promineotech;
+
+public class Application {
+
+	public static void main(String[] args) {System.out.println("My first Java Program!");
+	
+	int jessicasAge = 35;
+	double accountBalance = 34.67;
+	char middleInitial = 'E';
+	boolean isHotOutside = false;
+	String firstName = "Jessica";
+	
+	System.out.println(jessicasAge);
+	System.out.println(accountBalance);
+	System.out.println(middleInitial);
+	System.out.println(isHotOutside);
+	System.out.println(firstName
+			);
+	
+	int age = 34;
+			System.out.println(age);
+	age = age + 1;
+	System.out.println(age);
+	
+	
+	String firstName = "Jessica";
+	String lastName = "Jasper";
+	String fullName = firstName + " " + lastName;
+	System.out.println(fullName);
+	
+		// TODO Auto-generated method stub
+
+	}
+
+}

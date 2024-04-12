@@ -1,0 +1,94 @@
+package Week5;
+
+public class Student {
+
+	
+	static int numberOfStudents; //sometimes we can have a property shared amongst the entire class
+	//so here we can use the static keyword
+	
+	private String firstName;  //we won't give it a specific name since it's a class - it's just the blueprint
+	private String lastName;    //once we add the keyword private, we get the error 
+	//that the field is no longer visible
+	private String phoneNumber;
+	int gradeLevel;
+	
+	
+	public Student() {}//nothing passed in to this one
+	
+	
+	// CONSTRUCTORS:
+	//
+	public Student (String firstName, String lastName) {
+		this.firstName = firstName; 
+		this.lastName = lastName;
+	}
+	
+	
+	public Student(String firstName, String lastName, String phoneNumber, int gradeLevel) {
+		//NO return type here
+		//we can "overload" constructors and put all these different parameters in
+		//instead of having to write 5 lines per student with all of this data
+		//  firstName = firstName;  //assigning the value of the parameter BACk to itself
+		//so we use the this.firstName keyword (so Java knows which firstName we want to reference)
+		this.firstName = firstName; //this points to the instance of the class we want to reference
+		this.lastName = lastName;
+		this.gradeLevel = gradeLevel;
+		this.phoneNumber = phoneNumber;
+		
+		
+		// PUBLIC METHODS:
+		//
+	}
+	//we can create our own methods now...
+	public void introduce() { //doesn't even take any parameters because it'll use 
+	//the values/properties of the student class!
+		
+		System.out.println("Hello, my name is " + firstName + " " + lastName);
+		System.out.println("I am in grade " + gradeLevel);
+		System.out.println(	"My phone number is " + phoneNumber);
+	}
+	
+	//GETTERS AND SETTERS:
+	//
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;   //called the setter
+	}
+	public String getFirstName() {  //takes no parameters //called the getter
+		//just RETURNS firstName    
+		return firstName;    // don't need this keyword - no parameter we need to differentiate
+		
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;   //setter
+	}
+		
+	public String getLastName() {  //takes no parameters
+		return lastName;    // don't need this keyword - no parameter we need to differentiate
+	}
+	
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;   //setter
+	}
+	public String getPhoneNumber() {  //takes no parameters
+		//just RETURNS firstName
+		return phoneNumber;    // don't need this keyword - no parameter we need to differentiate
+	}
+	
+	public void setGradeLevel(int gradeLevel) {
+		this.gradeLevel = gradeLevel;   //setter
+	}
+		
+	public String getGradeLevel() {  //takes no parameters
+		return gradeLevel;    // don't need this keyword - no parameter we need to differentiate
+	}	
+		
+		
+		
+	}
+
+
+	
+	
+	
+	
+

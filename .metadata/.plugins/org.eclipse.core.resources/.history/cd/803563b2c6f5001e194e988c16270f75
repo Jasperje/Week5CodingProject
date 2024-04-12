@@ -1,0 +1,23 @@
+package Week5;
+
+public class Encapsulation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Student student = new Student();
+		student.setFirstName("Sally");
+		System.out.println(student.getFirstName());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

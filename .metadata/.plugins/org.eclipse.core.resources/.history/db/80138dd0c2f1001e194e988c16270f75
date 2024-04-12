@@ -1,0 +1,57 @@
+package week4codingproject;
+
+public class Week4practiceareaforCodingassignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//10. Write a method that takes an array of double and returns
+		//the average of all the elements in the array.
+
+		
+		double[] numbers  = {12.09, 17.08, 29.99, 18.76, 87.32, 63.00, 3.00, 14.01, 106.09};
+		
+		
+		
+		 double sum = 0;
+			double average = sum/numbers.length;
+			System.out.println(average);
+			
+		
+		
+		
+		
+		
+	} // end of main
+	
+	
+	
+
+		
+          public static double returnsAverageOfDoubleArray(double[] numbers) {
+        	 
+  			for (int i = 0; i < numbers.length; i++) {
+  				sum += numbers[i].length();
+  			}
+          }
+		 
+
+
+		 
+		 
+	
+
+
+
+		 
+
+	} // end of class
+
+		
+		
+		
+		
+		
+		
+	
+

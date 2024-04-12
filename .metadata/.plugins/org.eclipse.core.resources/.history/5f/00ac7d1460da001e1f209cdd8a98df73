@@ -1,0 +1,17 @@
+package com.promineotech;
+
+public class Application {
+
+	public static void main(String[] args) {System.out.println("My first Java Program!");
+	
+	int age = 67;
+	double accountBalance = 34.67;
+	System.out.println(age);
+	System.out.println(accountBalance);
+	
+	
+		// TODO Auto-generated method stub
+
+	}
+
+}

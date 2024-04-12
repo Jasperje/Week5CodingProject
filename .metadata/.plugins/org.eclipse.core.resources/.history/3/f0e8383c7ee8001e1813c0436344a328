@@ -1,0 +1,58 @@
+package week3classmethodsexamples;
+
+import java.util.Scanner;
+
+public class week3menudrivenappvideo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        // add team member
+		//view team member
+		//view all team members
+		// delete team member by position
+		// delete all team members 
+		
+		String [] team = new String[5];  //here is an array for our list of team members
+		Scanner s = new Scanner (System.in);  // here is where we can get user input
+		//THEN import our scanner .... up above 
+		int decision = 0;         //then we need this variable to store what our user inputs
+		
+	//then create a while loop which will keep the app running while the user is still using 
+		
+		while (decision != -1) {
+			showMenu();       //here is what we display what the user will see
+			         //top down approach we will implement the methods after
+			decision = s.nextInt();  //then based on the decision we want to DO something with that decision 
+			//this will take whatever the decision is
+		}
+		
+	}
+	 public static void showMenu () {    //'show menu' is void because it doesn't take anything and it won't return anything
+		 //and it doesn't need any parameters
+		 System.out.println("Please pick an option or enter -1 to exit.");
+		 System.out.println("1) Show Team");
+		 System.out.println("2) Show Team member");
+		 System.out.println("3) Add a team member");
+	     System.out.println("4) Delete team member");
+	     System.out.println("5) Delete all team members");
+	 }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+

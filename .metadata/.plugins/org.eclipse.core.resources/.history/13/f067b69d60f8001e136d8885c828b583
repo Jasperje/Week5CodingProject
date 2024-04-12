@@ -1,0 +1,33 @@
+package WEEK5CodingProject;
+
+public abstract class AsteriskLogger implements Logger {
+
+	
+	public AsteriskLogger(String log, String error) {
+		super(); 
+	}  // we also need to include bonus percentage in the constructor for manager
+	
+	
+	
+	
+	@Override
+	public static void asteriskLogger(String log) {
+		System.out.println("***" + log + "***");
+	}
+
+	@Override
+	public static void asteriskLoggerError(String error) {
+		String string = new String();
+        System.out.println("***************");
+        System.out.println("*** Error: " + string + "***");
+        System.out.println("**************");
+
+	}
+
+	
+		
+	}
+	
+	
+	
+

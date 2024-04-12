@@ -1,0 +1,42 @@
+package week4codingproject;
+
+public class Week5ClassVideos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		StringBuilder name = new StringBuilder();
+		//Stringbuilder is a class - "new stringbuilder" creates an instance of a class,
+		// so it becomes our new object. now we can build multiple instances of stringbuilders
+		
+		//now we can create our OWN classes! whoa.
+		//variables we use camel case (first letter lowercase)
+		//classes we use pascal case - the first letter capitalized in addition to all other words
+		
+		Student student1 = new Student();
+		student1.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

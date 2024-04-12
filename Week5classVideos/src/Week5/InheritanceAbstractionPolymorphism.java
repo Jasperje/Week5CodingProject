@@ -1,0 +1,22 @@
+package Week5;
+
+public class InheritanceAbstractionPolymorphism {
+
+	public static void main(String[] args) {
+
+		
+		
+		//instead of making a list here
+		Employee salary = new SalariedEmployee("Beyonce", "Knowles", 2500.00);
+		// of TYPE employee and the instance is Salaried Employee
+		Employee hourly = new HourlyEmployee("Tim", "Smith", 15.00, 75.5);
+		Employee manager = new Manager("Michelle", "Obama", 4500.00, 15.5);
+		
+		System.out.println(salary.calculatePay());
+		System.out.println(hourly.calculatePay());
+		System.out.println(manager.calculatePay());
+		
+		
+	}
+
+}

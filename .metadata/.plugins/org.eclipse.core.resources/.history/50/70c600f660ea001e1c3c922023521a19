@@ -1,0 +1,216 @@
+package week3;
+
+public class week3labsmethodsandarrays {
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		//
+		// Arrays:
+		//
+		
+		// 1. Create an array with the following values 1, 5, 2, 8, 13, 6
+		int[] array = new int [6];
+		array[0] = 1;
+		array[1] = 5;
+        array[2] = 2;
+	    array[3] = 8;
+        array[4] = 13;
+        array[5] = 6;
+
+		//OR
+			//int[] array = {1, 5, 2, 8, 13, 6};
+		
+		// 2. Print out the first element in the array
+	        System.out.println(array[0]);  //name of the array which we titled array and then [0]
+		
+		// 3. Print out the last element in the array without using the number 5
+		System.out.println(array[array.length-1]);  
+		
+		// 4. Print out the element in the array at position 6, what happens?
+               // System.out.println(array[6]);  //says index 6 out of bounds for length
+		       // and program will actually stop executing at this line 
+		
+		// 5. Print out the element in the array at position -1, what happens?
+              // System.out.println(array[-1]); //also says index -1 is out of bounds
+			
+		// 6. Write a traditional for loop that prints out each element in the array
+	         //   for (int i=0; i < array.length; i++) {  //start at 0 because we start counting at 0 
+	         //   	System.out.println(array[i]);    
+	         //   }
+			
+		// 7. Write an enhanced for loop that prints out each element in the array
+               //   for (int number : array) {       //number is just a variable we assign HERE it could be anything
+                //	  System.out.println(number);   //then print out the variable called number in this line
+                //  }
+		
+		// 8. Create a new variable called sum, write a loop that adds 
+		//			each element in the array to the sum
+		          double sum = 0;   // they make this look so easy. eyeroll. 
+		          // set it equal to 0 because that's where we start counting
+                  for (int number : array) {
+                	  sum += number;   // adds each number to itself for each iteration of the loop
+                  }  //return sum;      //doesn't work because this is a VOID method
+                  System.out.println( sum ); 
+			
+		// 9. Create a new variable called average and assign the average value of the array to it
+                double average = sum/array.length;   //changed this to double because it had decimals 
+                System.out.println(average); 
+                
+		
+		// 10. Write an enhanced for loop that prints out each number in the array 
+		//			only if the number is odd
+               for (double number : array) {
+            	   if (number % 2 !=0) {      //OR you can say if %2 ==1 
+            	   System.out.println(number); 
+               }
+              }
+                
+		
+		// 11. Create an array that contains the values "Sam", "Sally", "Thomas", and "Robert"
+           // String [] names = new String [4];
+           // name[0] = "Sam";
+          //  name[1] = "Sally";
+          //  name[2] = "Thomas"; 
+          //  name[3] =  "Robert";
+            
+           String[] names = {"Sam", "Sally", "Thomas", "Robert"};
+               
+		
+		// 12. Calculate the sum of all the letters in the new array
+            //need a variable to hold this value
+             int totalChars = 0;
+             for(String name : names) {
+            	 totalChars += name.length(); //takes characters and adds them to itself
+             } System.out.println(totalChars);
+            
+		
+            
+
+		//
+		// Methods:
+		//
+		
+		// 13. Write and test a method that takes a String name and prints out a greeting. 
+		//			This method returns nothing.
+		    //to test the method we just use the method name with ()
+             greet("Tom");           //can reuse and greet as many as we want!
+             greet("Pressley");
+         
+             
+		
+		// 14. Write and test a method that takes a String name and  
+		//			returns a greeting.  Do not print in the method.
+              //greetYou("JJ");  // this line alone does not print anything
+              System.out.println(greetYou("JJ"));
+              // or this way also works!: assign greeting to a variable of type String
+              String greeting = greetYou("JJ");
+              System.out.println(greeting);
+		
+		// Compare method 13 and method 14:  
+		//		a. Analyze the difference between these two methods.
+		//		b. What do you find? 
+		//		c. How are they different?
+		
+		
+		// 15. Write and test a method that takes a String and an int and 
+		//			returns true if the number of letters in the string is greater than the int
+		
+		
+		// 16. Write and test a method that takes an array of string and a string and 
+		//			returns true if the string passed in exists in the array
+		
+		
+		// 17. Write and test a method that takes an array of int and 
+		//			returns the smallest number in the array
+	
+		
+		// 18. Write and test a method that takes an array of double and 
+		//			returns the average
+		
+
+		// 19. Write and test a method that takes an array of Strings and 
+		//			returns an array of int where each element
+		//			matches the length of the string at that position
+
+				
+		// 20. Write and test a method that takes an array of strings and 
+		//			returns true if the sum of letters for all strings with an even amount of letters
+		//			is greater than the sum of those with an odd amount of letters.
+
+	
+		// 21. Write and test a method that takes a string and 
+		//			returns true if the string is a palindrome
+
+		
+		
+	}
+	
+
+	
+	//here we test methods OUTSIDE of the main method...
+	// but inside the class 
+	// Method 13:
+	   public static void greet(String name) {  //write methods outside main method, but 
+		   // use them inside ?!? so we need the STATIC indicator
+	    	 System.out.println("Hello, " + name + "!");
+	   }
+	        
+
+	     
+	// Method 14:
+	   public static String greetYou(String name) { //string is the return type, which we want to return a string
+		  // COULD create a variable, and then return the greeting
+		   //String greeting = "blah blah"; 
+		 //  return greeting;
+		   return "Hi " + name + "!";       //or for this since it's simple we can just do return statement
+		   
+	   }
+
+	
+	// Method 15:
+
+	
+	// Method 16:
+
+	
+	// Method 17:
+
+	
+	// Method 18:
+
+	
+	// Method 19:
+
+	
+	// Method 20:
+	
+	
+	// Method 21:
+	
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+

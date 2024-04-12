@@ -1,0 +1,27 @@
+package week4codingproject;
+
+public class Week4Practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+	 
+				String[] names = {"Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"};
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

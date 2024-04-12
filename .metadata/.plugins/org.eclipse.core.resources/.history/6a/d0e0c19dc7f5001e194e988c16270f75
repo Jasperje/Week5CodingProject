@@ -1,0 +1,24 @@
+package Week5;
+
+public class Encapsulation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Student student = new Student();
+		student.setFirstName("S");   //if you just say "student.firstName" you'll get an error
+		// that the field is not visible, if the method is private, that's the error
+		System.out.println(student.getFirstName());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

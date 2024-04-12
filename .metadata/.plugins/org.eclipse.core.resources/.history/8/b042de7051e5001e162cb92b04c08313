@@ -1,0 +1,73 @@
+package week02classlooppractice;
+
+public class week02classlooppractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// for loops is always 
+		//  part 1 - initializer (where the loop starts - starting at 0 or 1, ex) ;
+		//part 2 - condition
+		//part 3 - increment
+		//lines of code you repeat - you can even nest a loop inside a loop! whoa. but tough to keep track of
+		
+		
+		for (int count = 10; count > 0; count = count-1) {
+			
+			//shorthand count -=1 means count = count-1
+			// shorthand count += means count = count+1
+			
+			System.out.printf("%d...%n", count);
+			
+			
+		}
+		System.out.println("BLAST OFF!");
+		//non deterministic loop
+		//first line initializer on its own line
+		//while - condition
+		// run the lines of code that repeat
+		// increment or decrement (reduction?/diminution)
+		//
+		
+		int count2 = 10;
+		while (count2 > 0) {
+			System.out.printf("%d...%n", count2);
+			count2--;
+			
+		}
+		System.out.println("BLAST OFF!");
+		
+		
+		
+		   int num1 = 5;
+	        int num2 = 5;
+	        int num3 = 5;
+	        int num4 = 5;
+	    /***** DO NOT CHANGE THE CODE ABOVE THIS LINE *****/
+	        
+	        // WRITE YOUR CODE HERE
+	        if (num1>=num2) {
+	        if (num3>=num4) {
+	            System.out.println("both statements are true"); {
+	        } 
+	    }
+	}  System.out.println("program ended");
+
+	int userValue = 2;
+	
+//****** DO NOT CHANGE THE CODE ABOVE THIS LINE ******/
+
+    // WRITE YOUR CODE HERE 
+	
+    for (int=1; int<100; i+=int) {
+    System.out.println(int);
+    
+     
+}
+}	
+	
+	
+	
+	}
+
+}

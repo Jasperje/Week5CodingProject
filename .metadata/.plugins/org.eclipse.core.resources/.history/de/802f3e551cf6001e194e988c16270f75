@@ -1,0 +1,16 @@
+package Week5;
+
+public interface Logger {
+     // interface - ONLY define method signatures - when you know WHAT you want to happen
+	// versus how you want it to happen
+	//interface = think of the word contract.
+	
+	
+	// versus abstract class- some methods do have method bodies
+	
+	
+	
+	
+	
+	
+}

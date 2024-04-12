@@ -1,0 +1,23 @@
+package week1Variables;
+
+public class week1Variables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+ * You have been given two variables, num1 and num2, each with predefined values
+ * as test cases. Your task is to calculate the sum of these variables and
+ * display the result using the System.out.println();
+ */
+		
+		
+	
+		num1 = in.nextInt(2);
+		num2 = in.nextInt(2);
+		num3 = in.nextInt(2);
+    
+		int yourAnswer = (num1+num2) * num3;
+		System.out.println(yourAnswer);
+	}
+
+}

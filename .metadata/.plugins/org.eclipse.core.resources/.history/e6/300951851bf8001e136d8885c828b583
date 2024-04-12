@@ -1,0 +1,29 @@
+package WEEK5CodingProject;
+
+public abstract class AsteriskLogger implements Logger {
+
+	
+	
+	
+	
+	@Override
+	public static asteriskLogger(String log) {
+		System.out.println("***" + log + "***");
+	}
+
+	@Override
+	public static asteriskLoggerError(String error) {
+		String string = new String();
+        System.out.println("***************");
+        System.out.println("*** Error: " + string + "***");
+        System.out.println("**************");
+
+	}
+
+	
+		
+	}
+	
+	
+	
+

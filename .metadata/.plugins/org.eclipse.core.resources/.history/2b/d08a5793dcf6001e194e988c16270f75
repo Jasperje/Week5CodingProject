@@ -1,0 +1,18 @@
+package Week5;
+
+public class TeamMenuApp {
+
+	public static void main(String[] args) {
+
+		//we can even have a LIST of lists 
+		//List<List<String>> teams;
+		
+		Player p1 = new Player("Thomas", "Fullback", "Running Fast");
+		Player p2 = new Player("Sally", "Quarterback", "Throwing far");
+		
+		Team team = new Team("Really Good Football Team");
+		team.describe();
+		
+	}
+
+}

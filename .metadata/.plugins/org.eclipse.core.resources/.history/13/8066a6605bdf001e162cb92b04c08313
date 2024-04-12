@@ -1,0 +1,16 @@
+package week2conditionalsandloops;
+
+import java.util.Scanner;
+
+public class week2conditionalsandloops {
+
+	public static void main(String[] args) {
+		
+		 Scanner sc = new Scanner (system.in);
+		 System.out.print("enter your name: ");
+		 sc.nextline();
+			}
+	}
+	
+
+}

@@ -1,0 +1,19 @@
+package WEEK5CodingProject;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println(AsteriskLogger("Hello"));
+		
+		
+		
+	}
+
+	private static char[] AsteriskLogger(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

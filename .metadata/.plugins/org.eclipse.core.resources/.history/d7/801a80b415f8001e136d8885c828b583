@@ -1,0 +1,17 @@
+package WEEK5CodingProject;
+
+public interface Logger {
+
+	
+	public static void log (String _____) {
+		
+	}
+	
+
+	public static void error (String ) {
+		
+	}
+	
+	
+	
+}

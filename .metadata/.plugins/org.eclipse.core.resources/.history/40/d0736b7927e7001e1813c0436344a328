@@ -1,0 +1,66 @@
+package week3;
+
+public class week3methodsexamples {
+/**
+ * calculates the total of all the values
+ * @param numbers the numbers to total
+ * @return the total of all numbers
+ */
+	public static int calculateTotal(int[] numbers) { //get in the habit
+		//of making arrays /methods plural- "numbers" for ex.
+		int total = 0;
+		for (int number : numbers) {
+			total += number;  //number plus the previous number
+		}
+		return total;
+	}
+	
+	
+	/** this section is called a "javadoc"...
+	 * 
+	 * calculates the average of the numbers
+	 * @param numbers the numbers to average
+	 * @return the average value
+	 */
+	public static double calculateAverage(int[] numbers) {
+		//total divided by the number of elements
+		int total = 0;
+		for (int index = 0; index < numbers.length; index++) { //George wouldn't actually do a for loop
+			// here but this is just an example of how we can 
+	
+			total += numbers[index];
+		}
+		return total / numbers.length;  
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		int[] values = new int[] {
+				10, 45, 934, 34, 5, 9, 978
+		};
+		// TODO Auto-generated method stub
+//write a method that will calculate the total of the values in an array of integers
+		int total = calculateTotal(values); 
+		System.out.printf("Total: %d%n", total);
+		
+		
+		double average = calculateAverage(values);
+		System.out.printf("Average: %.2f%n", average); //f = float and .2 means include 
+		//2 decimal places
+		
+		
+		//write a method that will calculate the average of the values in an array of integers
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
